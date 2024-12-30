@@ -1,4 +1,4 @@
-package LC1367;
+package LC1367_LinkedListInBinaryTree;
 
 
 public class TreeNode {

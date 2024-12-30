@@ -1,4 +1,4 @@
-package LC2;
+package LC2_AddTwoNumbers;
 
 class Solution {
 

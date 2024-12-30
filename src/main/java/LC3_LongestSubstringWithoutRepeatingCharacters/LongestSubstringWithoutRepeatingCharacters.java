@@ -1,4 +1,4 @@
-package LC3;
+package LC3_LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.*;
 

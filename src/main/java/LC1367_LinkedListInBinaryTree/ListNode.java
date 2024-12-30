@@ -1,4 +1,5 @@
-package LC2;
+package LC1367_LinkedListInBinaryTree;
+
 
 public class ListNode {
     int val;
