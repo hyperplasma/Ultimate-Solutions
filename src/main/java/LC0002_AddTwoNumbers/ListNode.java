@@ -1,4 +1,4 @@
-package LC2_AddTwoNumbers;
+package LC0002_AddTwoNumbers;
 
 public class ListNode {
     int val;

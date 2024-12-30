@@ -1,4 +1,4 @@
-package LC1_TwoSum;
+package LC0001_TwoSum;
 
 
 import java.util.*;
