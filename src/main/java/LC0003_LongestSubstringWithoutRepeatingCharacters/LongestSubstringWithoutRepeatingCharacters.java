@@ -34,31 +34,25 @@ class Solution {
 
         return maxLength;
     }
-}
 
-/**
- * OG, much worse
- */
-class Solution2 {
-
-    public int lengthOfLongestSubstring(String s) {
-        StringBuilder sb = new StringBuilder();
-        if (!s.isEmpty()) {
-            sb.append(s.charAt(0));
-        }
-
-        int maxLength = 0;
-        for (int i = 0; i < s.length(); i++) {
-            int index = sb.indexOf(String.valueOf(s.charAt(i)));
-
-            if (index != -1) {
-                sb.delete(0, index + 1);
-            }
-            sb.append(s.charAt(i));
-
-            maxLength = Math.max(maxLength, sb.length());
-        }
-
-        return maxLength;
-    }
+//    public int lengthOfLongestSubstring(String s) {
+//        StringBuilder sb = new StringBuilder();
+//        if (!s.isEmpty()) {
+//            sb.append(s.charAt(0));
+//        }
+//
+//        int maxLength = 0;
+//        for (int i = 0; i < s.length(); i++) {
+//            int index = sb.indexOf(String.valueOf(s.charAt(i)));
+//
+//            if (index != -1) {
+//                sb.delete(0, index + 1);
+//            }
+//            sb.append(s.charAt(i));
+//
+//            maxLength = Math.max(maxLength, sb.length());
+//        }
+//
+//        return maxLength;
+//    }
 }

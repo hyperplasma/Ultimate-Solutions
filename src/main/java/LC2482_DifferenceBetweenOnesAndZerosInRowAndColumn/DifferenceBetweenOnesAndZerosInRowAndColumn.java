@@ -5,9 +5,9 @@ public class DifferenceBetweenOnesAndZerosInRowAndColumn {
         Solution solution = new Solution();
         int[][] grid = {{0,1},{1,0}};
         int[][] result = solution.onesMinusZeros(grid);
-        for (int i = 0; i < result.length; i++) {
+        for (int[] ints : result) {
             for (int j = 0; j < result[0].length; j++) {
-                System.out.print(result[i][j] + " ");
+                System.out.print(ints[j] + " ");
             }
         }
     }
