@@ -1,6 +1,11 @@
 package LC0013_RomanToInteger;
 
-import java.util.*;
+public class RomanToInteger {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println(solution.romanToInt("LVIII"));
+    }
+}
 
 class Solution {
     public int romanToInt(String s) {
@@ -75,34 +80,28 @@ class Solution {
 
         return res;
     }
-}
 
-
-/**
- * OG, much worse
- */
-class Solution2 {
-    Map<Character, Integer> symbolValues = new HashMap<>() {{
-        put('I', 1);
-        put('V', 5);
-        put('X', 10);
-        put('L', 50);
-        put('C', 100);
-        put('D', 500);
-        put('M', 1000);
-    }};
-
-    public int romanToInt(String s) {
-        int res = 0;
-        int n = s.length();
-        for (int i = 0; i < n; ++i) {
-            int value = symbolValues.get(s.charAt(i));
-            if (i < n - 1 && value < symbolValues.get(s.charAt(i + 1))) {
-                res -= value;
-            } else {
-                res += value;
-            }
-        }
-        return res;
-    }
+//    Map<Character, Integer> symbolValues = new HashMap<>() {{
+//        put('I', 1);
+//        put('V', 5);
+//        put('X', 10);
+//        put('L', 50);
+//        put('C', 100);
+//        put('D', 500);
+//        put('M', 1000);
+//    }};
+//
+//    public int romanToInt(String s) {
+//        int res = 0;
+//        int n = s.length();
+//        for (int i = 0; i < n; ++i) {
+//            int value = symbolValues.get(s.charAt(i));
+//            if (i < n - 1 && value < symbolValues.get(s.charAt(i + 1))) {
+//                res -= value;
+//            } else {
+//                res += value;
+//            }
+//        }
+//        return res;
+//    }
 }

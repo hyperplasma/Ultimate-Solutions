@@ -2,9 +2,14 @@ package LC0003_LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.*;
 
+public class LongestSubstringWithoutRepeatingCharacters {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println(solution.lengthOfLongestSubstring("pwwkew"));
+    }
+}
 
 class Solution {
-
     public int lengthOfLongestSubstring(String s) {
         if (s.length() < 2) return s.length();
 

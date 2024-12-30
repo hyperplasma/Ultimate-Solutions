@@ -1,8 +1,15 @@
 package LC1367_LinkedListInBinaryTree;
 
+public class LinkedListInBinaryTree {
+    public static void main(String[] args) {
+        ListNode head = new ListNode(4, new ListNode(2, new ListNode(8)));
+        TreeNode root = new TreeNode(1, new TreeNode(4, new TreeNode(4, new TreeNode(2), new TreeNode(6)), new TreeNode(8)), new TreeNode(1, new TreeNode(1), null));
+        Solution solution = new Solution();
+        System.out.println(solution.isSubPath(head, root));
+    }
+}
 
 class Solution {
-
     public boolean dfs(ListNode head, TreeNode root) {
         if (head == null) {
             return true;
