@@ -1,5 +1,8 @@
 package LC2482_DifferenceBetweenOnesAndZerosInRowAndColumn;
 
+/**
+ * <a href="https://leetcode.cn/problems/difference-between-ones-and-zeros-in-row-and-column/">Difference Between Ones and Zeros in Row and Column</a>
+ */
 public class DifferenceBetweenOnesAndZerosInRowAndColumn {
     public static void main(String[] args) {
         Solution solution = new Solution();

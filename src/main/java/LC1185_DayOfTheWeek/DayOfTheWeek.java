@@ -1,5 +1,8 @@
 package LC1185_DayOfTheWeek;
 
+/**
+ * <a href="https://leetcode.cn/problems/day-of-the-week/">Day of the Week</a>
+ */
 public class DayOfTheWeek {
     public static void main(String[] args) {
         Solution solution = new Solution();

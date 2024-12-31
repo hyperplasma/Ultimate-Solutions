@@ -3,6 +3,9 @@ package LC3242_DesignNeighborSumService;
 import java.util.Map;
 import java.util.HashMap;
 
+/**
+ * <a href="https://leetcode-cn.com/problems/design-neighbor-sum-service/">Design Neighbor Sum Service</a>
+ */
 public class DesignNeighborSumService {
     public static void main(String[] args) {
         int[][] grid = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};

@@ -1,5 +1,8 @@
 package LC1128_NumberOfEquivalentDominoPairs;
 
+/**
+ * <a href="https://leetcode.cn/problems/number-of-equivalent-domino-pairs/">Number of Equivalent Domino Pairs</a>
+ */
 public class NumberOfEquivalentDominoPairs {
     public static void main(String[] args) {
         Solution solution = new Solution();

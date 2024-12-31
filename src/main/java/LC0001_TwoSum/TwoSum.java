@@ -2,6 +2,9 @@ package LC0001_TwoSum;
 
 import java.util.*;
 
+/**
+ * <a href="https://leetcode-cn.com/problems/two-sum/">Two Sum</a>
+ */
 public class TwoSum {
     public static void main(String[] args) {
         Solution solution = new Solution();

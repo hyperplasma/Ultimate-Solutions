@@ -2,6 +2,9 @@ package LC0003_LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.*;
 
+/**
+ * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         Solution solution = new Solution();
