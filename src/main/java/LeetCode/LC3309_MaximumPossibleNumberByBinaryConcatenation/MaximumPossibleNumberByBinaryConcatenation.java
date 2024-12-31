@@ -1,0 +1,4 @@
+package LeetCode.LC3309_MaximumPossibleNumberByBinaryConcatenation;
+
+public class MaximumPossibleNumberByBinaryConcatenation {
+}
