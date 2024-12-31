@@ -1,4 +1,4 @@
-package LC0009_PalindromeNumber;
+package leetcode.LC0009_PalindromeNumber;
 
 /**
  * <a href="https://leetcode.com/problems/palindrome-number/">Palindrome Number</a>

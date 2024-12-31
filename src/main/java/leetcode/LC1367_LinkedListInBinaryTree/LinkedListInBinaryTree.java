@@ -1,4 +1,4 @@
-package LC1367_LinkedListInBinaryTree;
+package leetcode.LC1367_LinkedListInBinaryTree;
 
 /**
  * <a href="https://leetcode.cn/problems/linked-list-in-binary-tree/">LinkedList in Binary Tree</a>

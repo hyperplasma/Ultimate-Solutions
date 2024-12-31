@@ -1,4 +1,4 @@
-package LC3218_MinimumCostForCuttingCakeI;
+package leetcode.LC3218_MinimumCostForCuttingCakeI;
 
 import java.util.Arrays;
 

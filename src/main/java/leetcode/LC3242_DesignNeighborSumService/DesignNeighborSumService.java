@@ -1,4 +1,4 @@
-package LC3242_DesignNeighborSumService;
+package leetcode.LC3242_DesignNeighborSumService;
 
 import java.util.Map;
 import java.util.HashMap;

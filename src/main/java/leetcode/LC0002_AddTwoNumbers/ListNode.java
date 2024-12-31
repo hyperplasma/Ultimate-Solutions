@@ -1,4 +1,4 @@
-package LC0002_AddTwoNumbers;
+package leetcode.LC0002_AddTwoNumbers;
 
 public class ListNode {
     int val;

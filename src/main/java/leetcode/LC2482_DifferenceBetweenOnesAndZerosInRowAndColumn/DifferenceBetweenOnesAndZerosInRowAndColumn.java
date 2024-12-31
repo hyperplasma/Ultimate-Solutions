@@ -1,4 +1,4 @@
-package LC2482_DifferenceBetweenOnesAndZerosInRowAndColumn;
+package leetcode.LC2482_DifferenceBetweenOnesAndZerosInRowAndColumn;
 
 /**
  * <a href="https://leetcode.cn/problems/difference-between-ones-and-zeros-in-row-and-column/">Difference Between Ones and Zeros in Row and Column</a>

@@ -1,4 +1,4 @@
-package LC1367_LinkedListInBinaryTree;
+package leetcode.LC1367_LinkedListInBinaryTree;
 
 
 public class ListNode {

@@ -1,4 +1,4 @@
-package LC0001_TwoSum;
+package leetcode.LC0001_TwoSum;
 
 import java.util.*;
 

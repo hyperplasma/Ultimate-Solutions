@@ -1,4 +1,4 @@
-package LC0013_RomanToInteger;
+package leetcode.LC0013_RomanToInteger;
 
 /**
  * <a href="https://leetcode.com/problems/roman-to-integer/">Roman to Integer</a>
