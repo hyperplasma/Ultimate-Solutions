@@ -1,4 +1,4 @@
-package leetcode.LC3192_MinimumOperationsToMakeBinaryArrayElementsEqualToOneII;
+package LeetCode.LC3192_MinimumOperationsToMakeBinaryArrayElementsEqualToOneII;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-ii/">Minimum Operations To Make Binary Array Elements Equal II</a>

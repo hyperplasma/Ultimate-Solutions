@@ -1,4 +1,4 @@
-package leetcode.LC1185_DayOfTheWeek;
+package LeetCode.LC1185_DayOfTheWeek;
 
 /**
  * <a href="https://leetcode.cn/problems/day-of-the-week/">Day of the Week</a>

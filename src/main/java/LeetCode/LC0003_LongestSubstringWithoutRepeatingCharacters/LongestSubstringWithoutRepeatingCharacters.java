@@ -1,4 +1,4 @@
-package leetcode.LC0003_LongestSubstringWithoutRepeatingCharacters;
+package LeetCode.LC0003_LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.*;
 

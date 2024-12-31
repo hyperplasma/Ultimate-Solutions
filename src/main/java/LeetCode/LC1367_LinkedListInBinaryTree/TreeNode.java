@@ -1,4 +1,4 @@
-package leetcode.LC1367_LinkedListInBinaryTree;
+package LeetCode.LC1367_LinkedListInBinaryTree;
 
 
 public class TreeNode {

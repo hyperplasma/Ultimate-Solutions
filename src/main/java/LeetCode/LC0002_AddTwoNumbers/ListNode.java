@@ -1,5 +1,4 @@
-package leetcode.LC1367_LinkedListInBinaryTree;
-
+package LeetCode.LC0002_AddTwoNumbers;
 
 public class ListNode {
     int val;
