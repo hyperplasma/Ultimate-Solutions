@@ -1,7 +1,6 @@
 # LeetCode Solutions
 
 
-<a href="https://www.hyperplasma.top">Hyperplasma</a>
-<a href="https://LeetCode.cn/problemset/" target="_blank">LeetCode</a>
+<a href="https://www.hyperplasma.top/category/dev/">Hyperplasma</a>
 
 Daily AC
