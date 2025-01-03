@@ -1,6 +1,6 @@
-# LeetCode Solutions
+# Ultimate Solutions
 
-Hyplus solutions of LeetCode classic problem. Daily AC!
+Hyplus solutions for LeetCode classic problems, weekly/biweely contests, and PAT!. Mainly in Java/C++. Daily AC!
 
 <a href="https://www.hyperplasma.top/category/dev/">Hyperplasma</a>
 
