@@ -1,4 +1,8 @@
-# 经典例题记录
+# LeetCode Solutions
+
+LeetCode经典题库全题解 Daily AC
+
+## 经典例题记录
 
 * 模拟：2482, 3242
 * 贪心：3192
