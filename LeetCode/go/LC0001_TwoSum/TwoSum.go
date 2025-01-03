@@ -1,4 +1,4 @@
-package LC0001_TwoSum
+package two_sum
 
 func twoSum(nums []int, target int) []int {
 	// 使用map
