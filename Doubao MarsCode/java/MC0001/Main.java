@@ -3,7 +3,7 @@ package MC0001;
 
 /**
  * 1. 找单独的数
- * 哈希表
+ * 位运算；哈希表
  */
 public class Main {
     public static int solution(int[] cards) {

@@ -2,7 +2,7 @@ package MC0030;
 
 /**
  * 30. 组成字符串ku的最大次数
- * 哈希表
+ * 数学；哈希表
  */
 public class Main {
     public static int solution(String s) {

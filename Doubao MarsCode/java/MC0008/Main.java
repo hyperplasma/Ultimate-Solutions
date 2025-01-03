@@ -1,5 +1,9 @@
 package MC0008;
 
+/**
+ * 8. 找出整型数组中占比超过一半的数
+ * 贪心；模拟
+ */
 public class Main {
     public static int solution(int[] array) {
         int candidate = 0;

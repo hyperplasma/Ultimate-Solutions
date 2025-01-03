@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * 31. 不同整数的计数问题
- * 哈希表
+ * 哈希表；模拟
  */
 public class Main {
     public static int solution(String word) {
