@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 /**
  * <a href="https://leetcode-cn.com/problems/design-neighbor-sum-service/">Design Neighbor Sum Service</a>
+ * 设计；数组；哈希表；矩阵；模拟
  */
 public class DesignNeighborSumService {
     public static void main(String[] args) {

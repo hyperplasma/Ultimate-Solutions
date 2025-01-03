@@ -2,6 +2,7 @@ package LC1367_LinkedListInBinaryTree;
 
 /**
  * <a href="https://leetcode.cn/problems/linked-list-in-binary-tree/">LinkedList in Binary Tree</a>
+ * 树；深度优先搜索；链表；二叉树
  */
 public class LinkedListInBinaryTree {
     public static void main(String[] args) {

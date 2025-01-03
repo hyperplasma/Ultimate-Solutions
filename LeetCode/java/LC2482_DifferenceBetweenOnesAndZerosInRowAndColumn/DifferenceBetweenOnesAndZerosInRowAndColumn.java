@@ -2,6 +2,7 @@ package LC2482_DifferenceBetweenOnesAndZerosInRowAndColumn;
 
 /**
  * <a href="https://leetcode.cn/problems/difference-between-ones-and-zeros-in-row-and-column/">Difference Between Ones and Zeros in Row and Column</a>
+ * 数组；矩阵；模拟
  */
 public class DifferenceBetweenOnesAndZerosInRowAndColumn {
     public static void main(String[] args) {

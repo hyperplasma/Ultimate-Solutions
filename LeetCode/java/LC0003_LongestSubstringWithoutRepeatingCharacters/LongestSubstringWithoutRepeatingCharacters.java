@@ -3,7 +3,8 @@ package LC0003_LongestSubstringWithoutRepeatingCharacters;
 import java.util.*;
 
 /**
- * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+ * <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+ * 哈希表；字符串；滑动窗口
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
