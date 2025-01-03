@@ -1,4 +1,4 @@
-package MC30;
+package MC0030;
 
 /**
  * 30. 组成字符串ku的最大次数
@@ -26,6 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        // Add your test cases here
         System.out.println(solution("AUBTMKAxfuu") == 1); // true
         System.out.println(solution("KKuuUuUuKKKKkkkkKK") == 6); // true
         System.out.println(solution("abcdefgh") == 0); // true
