@@ -1,7 +1,5 @@
 package LC0731_MyCalendarII;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -31,14 +29,14 @@ class MyCalendarTwo {
     }
 
     public boolean book(int startTime, int endTime) {
-//        int ans = 0;
+//        int res = 0;
         int maxBook = 0;
         cnt.put(startTime, cnt.getOrDefault(startTime, 0) + 1); // 从startTime开始的数目加1
         cnt.put(endTime, cnt.getOrDefault(endTime, 0) - 1); // 从endTime开始的数目减1
         for (Map.Entry<Integer, Integer> entry : cnt.entrySet()) {
             int freq = entry.getValue();    // 以起点x开始的预定的总数目为 \Sum_{i \le x} cnt[i]
             maxBook += freq;
-//            ans = Math.max(maxBook, ans);
+//            res = Math.max(maxBook, res);
             if (maxBook > 2) {
                 cnt.put(startTime, cnt.getOrDefault(startTime, 0) - 1);
                 cnt.put(endTime, cnt.getOrDefault(endTime, 0) + 1);
