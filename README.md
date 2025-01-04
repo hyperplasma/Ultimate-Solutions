@@ -1,6 +1,6 @@
 # Ultimate Solutions
 
-Hyplus solutions for LeetCode, PAT, and MarsCode. Mainly in Java/C++. Daily AC!
+Hyplus solutions for LeetCode, PAT, etc. Mainly in Java/C++ (Sometimes Golang). Daily AC!
 
 <a href="https://www.hyperplasma.top/category/dev/">Hyperplasma</a>
 
