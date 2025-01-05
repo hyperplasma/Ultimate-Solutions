@@ -1,10 +1,17 @@
 package LC2241_DesignAnATMMachine;
 
+import java.util.Arrays;
+
 /**
  * <a href="https://leetcode.cn/problems/design-an-atm-machine/">Design an ATM Machine</a>
  * 贪心；设计；数组
  */
 public class DesignAnATMMachine {
+    public static void main(String[] args) {
+        ATM atm = new ATM();
+        atm.deposit(new int[]{0, 0, 1, 2, 1});
+        System.out.println(Arrays.toString(atm.withdraw(600))); // [0,0,1,0,1]
+    }
 }
 
 class ATM {
