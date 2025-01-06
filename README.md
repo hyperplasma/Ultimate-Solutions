@@ -35,10 +35,7 @@ Each solution includes:
 
 Feel free to create issues or PRs if you have better solutions!
 
-## Like this project?
-
-Please consider giving it a star! ⭐
 
 ## License
 
-[Apache License](LICENSE)
+[Apache License 2.0](LICENSE)
