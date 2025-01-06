@@ -9,7 +9,7 @@ A comprehensive collection of solutions for programming challenges from LeetCode
 This repository contains solutions written by <a href="https://www.hyperplasma.top/category/dev/">Hyperplasma</a> to various programming problems, primarily implemented in:
 
 - Java (mainly)
-- C++
+- C/C++
 - Go
 
 For more information on each problem set, please refer to the `info.md` file in their respective directories.
