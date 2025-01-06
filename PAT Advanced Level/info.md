@@ -1,6 +1,6 @@
 # PAT-A Solutions
 
-PAT甲级题解存档（C++为主）
+PAT甲级题解存档（C++/Java）
 
 由于Java语言自身缺点，个别题的Java解法无法满足时间/内存要求（题库中C++与Java使用同一套评分标准）
 

@@ -1,6 +1,6 @@
 # PAT-B Solutions
 
-PAT乙级题解存档（C++为主）
+PAT乙级题解存档（C++/Java）
 
 <a href="https://pintia.cn/problem-sets/dashboard">PAT官网</a>
 
