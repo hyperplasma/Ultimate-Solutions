@@ -40,3 +40,4 @@ build/
 /.idea/
 /LeetCode/go/test/
 /LeetCode/test/
+/Algorithm_Templates/go/test/

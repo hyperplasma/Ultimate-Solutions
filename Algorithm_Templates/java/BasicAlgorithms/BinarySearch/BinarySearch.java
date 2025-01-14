@@ -11,9 +11,9 @@ public class BinarySearch {
      */
     public static int binarySearchL(int l, int r) {
         while (l < r) {
-            int mid = l + r >> 1;    // 计算中间值
+            int mid = l + r >> 1;    // 计算中点值
             if (ge(mid, target)) {
-                r = mid;            // 如果中间的值符合条件，则继续在左边查找
+                r = mid;            // 如果中点值符合条件，则继续在左边查找
             } else {
                 l = mid + 1;        // 否则在右边查找
             }
@@ -26,9 +26,9 @@ public class BinarySearch {
      */
     public static int binarySearchR(int l, int r) {
         while (l < r) {
-            int mid = l + r + 1 >> 1;    // 计算中间值，向右偏移
+            int mid = l + r + 1 >> 1;    // 计算中点值，向右偏移
             if (le(mid, target)) {
-                l = mid;                // 如果中间的值符合条件（≤），则继续在右边查找
+                l = mid;                // 如果中点值符合条件（≤），则继续在右边查找
             } else {
                 r = mid - 1;            // 否则在左边查找
             }
@@ -42,7 +42,7 @@ public class BinarySearch {
     public static double binarySearchF(double l, double r) {
         final double eps = 1e-8;        // 精度，视题目而定
         while (r - l > eps) {
-            double mid = (l + r) / 2;    // 计算中间值
+            double mid = (l + r) / 2;    // 计算中点值
             if (ge(mid, target)) {
                 r = mid;        // 目标在左边，更新右边界
             } else {
