@@ -8,40 +8,22 @@ public class BinarySearchTree {
      * 验证BST
      */
     public static boolean isValidBST(TreeNode root) {
-        // return checkBSTPreorder(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
-
-        return checkBSTInorder(root, new int[]{Integer.MAX_VALUE});
+        return checkBST(root);
     }
 
     /**
-     * 先序遍历验证BST
+     * 递归整棵树
      */
-    private static boolean checkBSTPreorder(TreeNode root, int min, int max) {
+    private static boolean checkBST(TreeNode root) {
         if (root == null) {
             return true;
         }
-        if (root.val < min || root.val > max) {
+        if (root.left != null && root.left.val >= root.val) {
             return false;
         }
-        return root.val > min && root.val < max
-                && checkBSTPreorder(root.left, min, root.val)
-                && checkBSTPreorder(root.right, root.val, max);
-    }
-
-    /**
-     * 中序遍历验证BST
-     */
-    private static boolean checkBSTInorder(TreeNode root, int[] pre) {
-        if (root == null) {
-            return true;
-        }
-        if (!checkBSTInorder(root.left, pre)) {
+        if (root.right != null && root.right.val <= root.val) {
             return false;
         }
-        if (root.val <= pre[0]) {
-            return false;
-        }
-        pre[0] = root.val;
-        return checkBSTInorder(root.right, pre);
+        return checkBST(root.left) && checkBST(root.right);
     }
 }
