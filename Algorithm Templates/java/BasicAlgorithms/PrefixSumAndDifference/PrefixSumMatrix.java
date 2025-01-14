@@ -1,4 +1,4 @@
-package H03_PrefixSum_Difference;
+package BasicAlgorithms.PrefixSumAndDifference;
 
 /**
  * 二维前缀和

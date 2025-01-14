@@ -1,4 +1,4 @@
-package H02_Search;
+package BasicAlgorithms.BinarySearch;
 
 /**
  * 二分查找

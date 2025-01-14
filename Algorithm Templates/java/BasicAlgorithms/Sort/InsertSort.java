@@ -1,4 +1,4 @@
-package H01_Sort;
+package BasicAlgorithms.Sort;
 
 /**
  * 插入排序
