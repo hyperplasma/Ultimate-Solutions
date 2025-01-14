@@ -20,15 +20,15 @@ public class QuickMul {
     }
 
     /**
-     * 取余 x^n % p
+     * 取余 x^n % mod
      */
-    public static double quickMulModP(double x, long n, long p) {
+    public static double quickMulMod(double x, long n, long mod) {
         double res = 1.0;
         while (n > 0) {
             if (n % 2 == 1) {
-                res = res * x % p;
+                res = res * x % mod;
             }
-            x = x * x % p;
+            x = x * x % mod;
             n /= 2;
         }
         return res;
@@ -47,7 +47,7 @@ public class QuickMul {
 
     public static void main(String[] args) {
         System.out.println(quickMul(2, 10));
-        System.out.println(quickMulModP(2, 10, 1000000007));
+        System.out.println(quickMulMod(2, 10, 1000000007));
         System.out.println(quickMulRecursion(2, 10));
     }
 }
