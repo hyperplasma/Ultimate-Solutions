@@ -34,4 +34,12 @@ public class QuickSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 6, 5, 1, 9, 7, 10, 2, 8, 4};
+        quickSort(arr, 0, arr.length - 1);
+        for (int j : arr) {
+            System.out.print(j + " ");
+        }
+    }
 }

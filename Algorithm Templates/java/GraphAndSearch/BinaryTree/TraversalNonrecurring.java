@@ -9,7 +9,7 @@ public class TraversalNonrecurring {
     /**
      * 非递归先序遍历
      */
-    public List<Integer> preOrder(TreeNode root) {
+    public static List<Integer> preOrder(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Deque<TreeNode> stack = new ArrayDeque<>();
         while (root != null || !stack.isEmpty()) {
@@ -27,7 +27,7 @@ public class TraversalNonrecurring {
     /**
      * 非递归中序遍历
      */
-    public List<Integer> inOrder(TreeNode root) {
+    public static List<Integer> inOrder(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Deque<TreeNode> stack = new ArrayDeque<>();
         while (root != null || !stack.isEmpty()) {
@@ -45,7 +45,7 @@ public class TraversalNonrecurring {
     /**
      * 非递归后序遍历
      */
-    public List<Integer> postOrder(TreeNode root) {
+    public static List<Integer> postOrder(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode pre = null;
@@ -65,5 +65,12 @@ public class TraversalNonrecurring {
             }
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(1, new TreeNode(2, new TreeNode(4), new TreeNode(5)), new TreeNode(3));
+        System.out.println(preOrder(root));
+        System.out.println(inOrder(root));
+        System.out.println(postOrder(root));
     }
 }

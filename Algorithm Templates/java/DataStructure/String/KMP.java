@@ -7,7 +7,7 @@ public class KMP {
     /**
      * KMP算法模式匹配
      */
-    public int kmp(String str, String pattern) {
+    public static int kmp(String str, String pattern) {
         int n = str.length(), m = pattern.length();
         if (m == 0) {
             return 0;
@@ -40,4 +40,9 @@ public class KMP {
         return -1;
     }
 
+    public static void main(String[] args) {
+        String str = "ababababca";
+        String pattern = "ababca";
+        System.out.println(kmp(str, pattern));
+    }
 }

@@ -6,7 +6,7 @@ package DataStructure.DisjointSet;
 public class DisjointSetWithSize {
     static final int N = 100010;
 
-    static int n;
+    static int n = 10;
     static int[] p = new int[N];
     static int[] cnt = new int[N];  // cnt[i]存储根结点i的集合中结点数（仅根结点的cnt有意义）
 
@@ -38,5 +38,12 @@ public class DisjointSetWithSize {
 
         cnt[find(b)] += cnt[find(a)];   // 需将a所属集合的大小加至b
         p[find(a)] = find(b);
+    }
+
+    public static void main(String[] args) {
+        init();
+        union(1, 2);
+        union(2, 3);
+        System.out.println(cnt[find(1)]);
     }
 }

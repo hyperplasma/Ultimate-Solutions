@@ -39,4 +39,14 @@ public class Trie {
         }
         return cnt[p];    // p最终指向字符串末尾字母，返回数量
     }
+
+    public static void main(String[] args) {
+        insert("abc");
+        insert("ab");
+        insert("abc");
+        insert("aab");
+        insert("a");
+        insert("abc");
+        System.out.println(query("abc"));
+    }
 }

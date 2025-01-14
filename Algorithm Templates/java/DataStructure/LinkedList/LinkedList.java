@@ -19,7 +19,7 @@ public class LinkedList {
     }
 
     /**
-     * 快慢指针，寻找中点
+     * 快慢指针，寻找环
      */
     public static ListNode findMid(ListNode head) {
         ListNode fast = head, slow = head;
@@ -28,5 +28,12 @@ public class LinkedList {
             slow = slow.next;
         }
         return slow;
+    }
+
+    public static void main(String[] args) {
+        ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
+        reverse(head);
+        ListNode mid = findMid(head);
+        System.out.println(mid.val);
     }
 }

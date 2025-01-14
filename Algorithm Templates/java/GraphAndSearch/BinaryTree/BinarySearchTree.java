@@ -26,4 +26,11 @@ public class BinarySearchTree {
         }
         return checkBST(root.left) && checkBST(root.right);
     }
+
+    public static void main(String[] args) {
+        TreeNode root1 = new TreeNode(1, new TreeNode(2, new TreeNode(4), new TreeNode(5)), new TreeNode(3));
+        System.out.println(isValidBST(root1));
+        TreeNode root2 = new TreeNode(4, new TreeNode(2, new TreeNode(1), new TreeNode(3)), new TreeNode(5));
+        System.out.println(isValidBST(root2));
+    }
 }

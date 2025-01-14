@@ -6,7 +6,7 @@ package DataStructure.DisjointSet;
 public class DisjointSet {
     static final int N = 100010;
 
-    static int n;
+    static int n = 10;
     static int[] p = new int[N];    // p[1 ... n]，p[i]存储结点i的祖先（路径压缩后则为根结点）
 
     /**
@@ -33,5 +33,12 @@ public class DisjointSet {
      */
     public static void union(int a, int b) {
         p[find(a)] = find(b);   // 将a的根接在b的根之后
+    }
+
+    public static void main(String[] args) {
+        init();
+        union(1, 2);
+        union(2, 3);
+        System.out.println(find(1) == find(3));
     }
 }

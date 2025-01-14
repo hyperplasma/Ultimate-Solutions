@@ -22,7 +22,7 @@ public class InsertSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 1, 2, 5, 4};
+        int[] arr = {3, 10, 1, 6, 2, 5, 7, 4};
         insertSort(arr);
         for (int i : arr) {
             System.out.print(i + " ");

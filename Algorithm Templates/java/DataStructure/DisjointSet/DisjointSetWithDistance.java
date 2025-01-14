@@ -6,7 +6,7 @@ package DataStructure.DisjointSet;
 public class DisjointSetWithDistance {
     static final int N = 100010;
 
-    static int n;
+    static int n = 10;
     static int[] p = new int[N];
     static int[] d = new int[N];    // d[i]存储结点i到其根结点p[i]的距离
 
@@ -44,5 +44,14 @@ public class DisjointSetWithDistance {
      */
     public static void setDistance(int a, int distance) {
         d[find(a)] = distance;
+    }
+
+    public static void main(String[] args) {
+        init();
+        union(1, 2);
+        union(2, 3);
+        setDistance(1, 2);
+        System.out.println(find(1));
+        System.out.println(d[1]);
     }
 }
