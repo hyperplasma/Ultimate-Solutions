@@ -1,4 +1,4 @@
-package H01_SortAlgorithms;
+package H01_Sort;
 
 /**
  * 归并排序
