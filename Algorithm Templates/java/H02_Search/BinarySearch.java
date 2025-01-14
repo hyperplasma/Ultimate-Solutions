@@ -1,4 +1,4 @@
-package H02_SearchAlgorithms;
+package H02_Search;
 
 /**
  * 二分查找
