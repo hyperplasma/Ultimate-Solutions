@@ -1,4 +1,4 @@
-package MathAlgorithms;
+package BasicAlgorithms.Math;
 
 import java.util.ArrayList;
 import java.util.List;

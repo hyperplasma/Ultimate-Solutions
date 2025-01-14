@@ -1,4 +1,4 @@
-package MathAlgorithms;
+package BasicAlgorithms.Math;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,5 +69,13 @@ public class Divisors {
      */
     public static int lcm(int a, int b) {
         return a / gcd(a, b) * b;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getDivisors(12));
+        System.out.println(getDivisorsCount(12));
+        System.out.println(getDivisorsSum(12));
+        System.out.println(gcd(12, 18));
+        System.out.println(lcm(12, 18));
     }
 }

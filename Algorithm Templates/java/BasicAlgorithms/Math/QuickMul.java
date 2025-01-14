@@ -1,4 +1,4 @@
-package MathAlgorithms;
+package BasicAlgorithms.Math;
 
 /**
  * 快速幂 O(log n)
