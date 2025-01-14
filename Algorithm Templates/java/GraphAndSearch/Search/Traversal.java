@@ -10,7 +10,7 @@ public class Traversal {
     public static int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
     /**
-     * BFS遍历迷宫
+     * BFS示例：遍历迷宫
      */
     public static void bfsMaze(int[][] maze, int[] u) {
         Queue<int[]> q = new LinkedList<>();
