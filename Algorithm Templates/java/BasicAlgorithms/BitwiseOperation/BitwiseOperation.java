@@ -31,4 +31,10 @@ public class BitwiseOperation {
         }
         return cnt;
     }
+
+    public static void main(String[] args) {
+        System.out.println(lowbit(5));  // 1
+        printInBinary(5);  // 101
+        System.out.println(countOnesInBinary(5));  // 2
+    }
 }

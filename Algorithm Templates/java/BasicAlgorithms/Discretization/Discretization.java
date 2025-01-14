@@ -1,9 +1,6 @@
 package BasicAlgorithms.Discretization;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 /**
  * 离散化
@@ -40,5 +37,15 @@ public class Discretization {
             }
         }
         return r + 1;   // 这里+1是为了映射到1, 2, ..., alls.size()
+    }
+
+    public static void main(String[] args) {
+        alls.addAll(Arrays.asList(5, 7, 1, 12, 9, 20, 4, 6, 10, 33, 2));
+        init();
+        for (int i = 0; i < alls.size(); i++) {
+            System.out.println(get(i));
+        }
+        System.out.println(find(2));
+        System.out.println(find(4));
     }
 }

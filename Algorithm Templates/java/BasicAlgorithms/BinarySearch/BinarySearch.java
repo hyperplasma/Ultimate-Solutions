@@ -54,16 +54,22 @@ public class BinarySearch {
 
     private static boolean ge(int mid, int target) {
         // 自定义比较条件 ...
-        return false;
+        return mid >= target;
     }
 
     private static boolean ge(double mid, double target) {
         // 自定义比较条件 ...
-        return false;
+        return mid - target >= 0;
     }
 
     private static boolean le(int mid, int target) {
         // 自定义比较条件 ...
-        return false;
+        return mid <= target;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(binarySearchL(0, 10));
+        System.out.println(binarySearchR(0, 10));
+        System.out.println(binarySearchF(0, 10));
     }
 }
