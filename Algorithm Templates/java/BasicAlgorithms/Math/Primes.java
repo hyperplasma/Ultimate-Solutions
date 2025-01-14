@@ -91,14 +91,21 @@ public class Primes {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(100));
+        System.out.println(isPrime(100) + "\n");
 
         List<int[]> pairs = divide(100);
         for (int[] pair : pairs) {
             System.out.println(pair[0] + " " + pair[1]);
         }
+        System.out.println();
 
-        List<Integer> primes = getPrimes(100);
+        List<Integer> primes = sieveOfEratosthenes(100);
+        for (int prime : primes) {
+            System.out.println(prime);
+        }
+        System.out.println();
+
+        primes = getPrimes(100);
         for (int prime : primes) {
             System.out.println(prime);
         }

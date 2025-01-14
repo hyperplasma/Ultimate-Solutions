@@ -26,4 +26,9 @@ public class PrefixSumMatrix {
     public static int getPartialSum(int x1, int y1, int x2, int y2) {
         return s[x2][y2] - s[x2][y1 - 1] - s[x1 - 1][y2] + s[x1 - 1][y1 - 1];
     }
+
+    public static void main(String[] args) {
+        init();
+        System.out.println(getPartialSum(1, 1, 2, 2));
+    }
 }

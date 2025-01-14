@@ -7,7 +7,7 @@ public class MergeSort {
     /**
      * 二路归并排序 arr[l ... r]
      */
-    public void mergeSort(int[] arr, int l, int r) {
+    public static void mergeSort(int[] arr, int l, int r) {
         if (l >= r) return;
 
         int mid = l + r >> 1;
@@ -37,6 +37,14 @@ public class MergeSort {
         // 将排序后的结果复制回原始数组
         for (i = l, j = 0; i <= r; i++, j++) {
             arr[i] = temp[j];
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {5, 3, 2, 4, 1};
+        mergeSort(arr, 0, arr.length - 1);
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
     }
 }

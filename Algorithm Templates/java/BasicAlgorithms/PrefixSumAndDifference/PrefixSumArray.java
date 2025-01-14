@@ -23,4 +23,9 @@ public class PrefixSumArray {
     public static int getPartialSum(int l, int r) {
         return s[r] - s[l - 1];
     }
+
+    public static void main(String[] args) {
+        init();
+        System.out.println(getPartialSum(1, 3));
+    }
 }

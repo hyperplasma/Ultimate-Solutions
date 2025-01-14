@@ -13,7 +13,7 @@ public class SegmentsMerge {
     /**
      * 合并区间
      */
-    List<int[]> merge() {
+    public static List<int[]> merge() {
         List<int[]> res = new ArrayList<>();
 
         segs.sort(Comparator.comparingInt(a -> a[0])); // 按左端点大小排序
@@ -35,5 +35,13 @@ public class SegmentsMerge {
             res.add(new int[]{st, ed});    // 保存最后一个区间
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        segs.add(new int[]{1, 3});
+        segs.add(new int[]{2, 6});
+        segs.add(new int[]{8, 10});
+        segs.add(new int[]{15, 18});
+        System.out.println(merge());
     }
 }

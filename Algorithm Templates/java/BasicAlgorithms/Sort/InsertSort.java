@@ -20,4 +20,12 @@ public class InsertSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 1, 2, 5, 4};
+        insertSort(arr);
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
 }

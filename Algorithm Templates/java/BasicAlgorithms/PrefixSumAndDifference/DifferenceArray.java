@@ -33,4 +33,9 @@ public class DifferenceArray {
             b[i] += b[i - 1];
         }
     }
+
+    public static void main(String[] args) {
+        init();
+        toOriginalArray();
+    }
 }
