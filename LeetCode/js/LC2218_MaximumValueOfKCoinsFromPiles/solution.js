@@ -20,4 +20,5 @@ var maxValueOfCoins = function (piles, k) {
     return f[k];
 };
 
+// test
 console.log(maxValueOfCoins([[1, 100, 3], [7, 8, 9]], 2));
