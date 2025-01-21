@@ -1,4 +1,4 @@
-package AT_A1040_Longest_Symmetric_String;
+package PAT_A1040_Longest_Symmetric_String;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
