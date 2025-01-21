@@ -1,4 +1,4 @@
-package LC1125_SmallestSufficientTeam;
+package LC1125_Smallest_Sufficient_Team;
 
 import java.util.ArrayList;
 import java.util.Arrays;

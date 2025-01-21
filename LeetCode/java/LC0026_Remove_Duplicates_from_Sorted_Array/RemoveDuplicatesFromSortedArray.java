@@ -1,4 +1,4 @@
-package LC0026_RemoveDuplicatesFromSortedArray;
+package LC0026_Remove_Duplicates_from_Sorted_Array;
 
 /**
  * <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array</a>

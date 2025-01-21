@@ -1,4 +1,4 @@
-package LC0684_RedundantConnection;
+package LC0684_Redundant_Connection;
 
 import java.util.Arrays;
 

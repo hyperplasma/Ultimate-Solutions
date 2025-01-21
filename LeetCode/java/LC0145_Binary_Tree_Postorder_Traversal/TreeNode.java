@@ -1,4 +1,4 @@
-package LC0145_BinaryTreePostorderTraversal;
+package LC0145_Binary_Tree_Postorder_Traversal;
 
 public class TreeNode {
     int val;

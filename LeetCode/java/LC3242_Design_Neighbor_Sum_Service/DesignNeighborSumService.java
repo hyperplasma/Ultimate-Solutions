@@ -1,4 +1,4 @@
-package LC3242_DesignNeighborSumService;
+package LC3242_Design_Neighbor_Sum_Service;
 
 import java.util.Map;
 import java.util.HashMap;

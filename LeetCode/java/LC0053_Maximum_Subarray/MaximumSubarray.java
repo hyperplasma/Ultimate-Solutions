@@ -1,4 +1,4 @@
-package LC0053_MaximumSubarray;
+package LC0053_Maximum_Subarray;
 
 /**
  * <a href="https://leetcode-cn.com/problems/maximum-subarray/">Maximum Subarray</a>

@@ -1,4 +1,4 @@
-package LC0020_ValidParentheses;
+package LC0020_Valid_Parentheses;
 
 import java.util.*;
 

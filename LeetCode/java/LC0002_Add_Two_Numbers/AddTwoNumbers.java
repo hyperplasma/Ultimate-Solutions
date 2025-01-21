@@ -1,4 +1,4 @@
-package LC0002_AddTwoNumbers;
+package LC0002_Add_Two_Numbers;
 
 /**
  * <a href="https://leetcode-cn.com/problems/add-two-numbers/">Add Two Numbers</a>

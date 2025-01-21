@@ -1,4 +1,4 @@
-package LC0729_MyCalendarI;
+package LC0729_My_Calendar_I;
 
 import java.util.TreeMap;
 

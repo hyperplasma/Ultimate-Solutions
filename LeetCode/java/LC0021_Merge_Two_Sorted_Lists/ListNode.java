@@ -1,4 +1,4 @@
-package LC0021_MergeTwoSortedLists;
+package LC0021_Merge_Two_Sorted_Lists;
 
 public class ListNode {
     int val;
