@@ -61,7 +61,7 @@ public class RenameFolders {
 
     public static void main(String[] args) {
         // 示例：指定目录路径
-        String directoryPath = "LeetCode/go";
+        String directoryPath = "LeetCode/java";
         renameFolders(directoryPath);
     }
 }
