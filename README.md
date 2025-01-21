@@ -11,6 +11,8 @@ This repository contains solutions written by <a href="https://www.hyperplasma.t
 - Java (mainly)
 - C/C++
 - Go
+- PHP
+- JavaScript (WIP)
 
 The solutions encompass problems from the following platforms:
 
