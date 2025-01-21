@@ -12,7 +12,7 @@ This repository contains solutions written by <a href="https://www.hyperplasma.t
 - C/C++
 - Go
 - PHP
-- JavaScript (WIP)
+- JavaScript
 
 The solutions encompass problems from the following platforms:
 
