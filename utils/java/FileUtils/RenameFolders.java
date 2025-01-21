@@ -6,7 +6,7 @@ import java.nio.file.*;
 public class RenameFolders {
 
     /**
-     * 对指定目录下的文件夹进行重命名
+     * 对指定目录下的文件夹进行重命名：帕斯卡追加下划线（首字母仍大写）
      *
      * @param directoryPath 指定目录的路径
      */
@@ -62,7 +62,7 @@ public class RenameFolders {
 
     public static void main(String[] args) {
         // 示例：指定目录路径
-        String directoryPath = "PAT_Basic_Level/java";
+        String directoryPath = "PAT_Advanced_Level/java";
         renameFolders(directoryPath);
     }
 }
