@@ -56,12 +56,13 @@ public class RenameFolders {
         String newSuffix = suffix.replaceAll("(?<!_)([A-Z])", "_$1");
 
         // 返回拼接后的文件夹名
-        return prefix + newSuffix;
+        // return prefix + newSuffix;
+        return "PAT_" + prefix + newSuffix;
     }
 
     public static void main(String[] args) {
         // 示例：指定目录路径
-        String directoryPath = "LeetCode/java";
+        String directoryPath = "PAT_Basic_Level/java";
         renameFolders(directoryPath);
     }
 }
