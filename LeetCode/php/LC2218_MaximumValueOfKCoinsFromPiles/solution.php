@@ -1,6 +1,7 @@
 <?php
 
 class Solution {
+
     /**
      * @param Integer[][] $piles
      * @param Integer $k
