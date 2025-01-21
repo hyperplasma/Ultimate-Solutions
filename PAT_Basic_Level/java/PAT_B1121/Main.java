@@ -1,4 +1,4 @@
-package B1121;
+package PAT_B1121;
 
 import java.io.IOException;
 import java.io.BufferedReader;
