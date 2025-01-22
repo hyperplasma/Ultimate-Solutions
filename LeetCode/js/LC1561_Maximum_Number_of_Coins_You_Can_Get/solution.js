@@ -11,5 +11,8 @@ var maxCoins = function (piles) {
     return sum;
 };
 
-// test
-console.log(maxCoins([2, 4, 1, 2, 7, 8]));
+function test() {
+    console.log(maxCoins([2, 4, 1, 2, 7, 8]));
+}
+
+test();

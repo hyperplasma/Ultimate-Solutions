@@ -33,11 +33,14 @@ var addTwoNumbers = function (l1, l2) {
     return l3.next;
 };
 
-// test
-let l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
-let l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
-let l3 = addTwoNumbers(l1, l2);
-while (l3 != null) {
-    console.log(l3.val);
-    l3 = l3.next;
+function test() {
+    let l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+    let l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+    let l3 = addTwoNumbers(l1, l2);
+    while (l3 != null) {
+        console.log(l3.val);
+        l3 = l3.next;
+    }
 }
+
+test();
