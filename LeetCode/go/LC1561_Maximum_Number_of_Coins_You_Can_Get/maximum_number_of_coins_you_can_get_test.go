@@ -1,4 +1,4 @@
-package LC1561_Maximum_Number_of_Coins_You_Can_Get
+package maximum_number_of_coins_you_can_get
 
 import (
 	"fmt"
