@@ -1,4 +1,4 @@
-package BasicAlgorithms.BitwiseOperation;
+package BasicAlgorithms.Bitwise;
 
 /**
  * 位运算
