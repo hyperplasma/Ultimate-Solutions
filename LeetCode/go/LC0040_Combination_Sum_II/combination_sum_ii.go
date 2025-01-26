@@ -1,4 +1,4 @@
-package LC0040_Combination_Sum_II
+package combination_sum_ii
 
 import "sort"
 
