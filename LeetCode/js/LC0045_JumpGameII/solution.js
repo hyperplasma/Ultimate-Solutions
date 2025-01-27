@@ -3,7 +3,6 @@
  * @return {number}
  */
 var jump = function (nums) {
-    let length = 0;
     let end = 0;
     let maxPos = 0;
     let steps = 0;
