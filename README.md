@@ -1,12 +1,12 @@
 # Ultimate Solutions
 
-A comprehensive collection of solutions for programming challenges from LeetCode, PAT (Programming Ability Test), and other coding platforms.
+A comprehensive collection of solutions and algorithm templates for programming challenges from LeetCode, PAT (Programming Ability Test), and other coding platforms, and also some homemade utils. 
 
 
 
 ## Overview
 
-This repository contains solutions written by <a href="https://www.hyperplasma.top/category/dev/">Hyperplasma</a> to various programming problems, primarily implemented in:
+This repository contains solutions and algorithm templates written by <a href="https://www.hyperplasma.top/category/dev/">Hyperplasma</a> to various programming problems, primarily implemented in:
 
 - Java (mainly)
 - Go
@@ -29,10 +29,12 @@ For more information on each problem set, please refer to `info.md` in their res
 
 ## Features
 
+- Cross-language algorithm templates
 - Detailed problem solutions
 - Multiple language implementations
 - Daily updates
 - Optimized solutions
+- Pragmatic utils
 
 The solution collection covers the following algorithmic categories:
 
