@@ -1,4 +1,4 @@
-package BasicAlgorithms.PrefixSumAndDifference;
+package BasicAlgorithms.PrefixSum;
 
 /**
  * 二维差分
