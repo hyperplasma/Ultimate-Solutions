@@ -38,6 +38,4 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
-/LeetCode/go/test/
-/LeetCode/test/
-/Algorithm_Templates/go/test/
+/**/test
