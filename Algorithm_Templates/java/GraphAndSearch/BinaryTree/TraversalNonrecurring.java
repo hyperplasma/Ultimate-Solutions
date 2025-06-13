@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * 二叉树的非递归遍历
+ */
 public class TraversalNonrecurring {
     /**
      * 非递归先序遍历

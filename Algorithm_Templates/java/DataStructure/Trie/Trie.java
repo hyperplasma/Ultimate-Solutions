@@ -4,6 +4,7 @@ package DataStructure.Trie;
  * 字典树
  */
 public class Trie {
+
     static final int N = 100010;
 
     static int[][] son = new int[N][26];        // son[p][u]记录结点p的第u个子结点

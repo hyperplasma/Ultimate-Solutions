@@ -1,7 +1,7 @@
 package GraphAndSearch.BinaryTree;
 
 /**
- * 平衡二叉树（BST）
+ * 二叉搜索树（BST）
  */
 public class BinarySearchTree {
     /**
