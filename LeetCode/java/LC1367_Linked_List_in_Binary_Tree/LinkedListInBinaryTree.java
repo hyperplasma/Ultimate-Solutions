@@ -14,7 +14,7 @@ public class LinkedListInBinaryTree {
 }
 
 class Solution {
-    public boolean dfs(ListNode head, TreeNode root) {
+    private boolean dfs(ListNode head, TreeNode root) {
         if (head == null) {
             return true;
         }

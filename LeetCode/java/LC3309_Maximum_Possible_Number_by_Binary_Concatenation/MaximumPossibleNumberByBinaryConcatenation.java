@@ -25,7 +25,6 @@ class Solution {
 
         Arrays.sort(binary, (a, b) -> (b + a).compareTo(a + b));    // 按字典序降序排序
 
-
         StringBuilder sb = new StringBuilder();
         for (String s : binary) {
             sb.append(s);

@@ -1,8 +1,5 @@
 package LC3046_Split_the_Array;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * <a href="https://leetcode.cn/problems/split-the-array/">Split the Array</a>
  * 数组；哈希表；计数
