@@ -7,7 +7,7 @@ import java.io.StreamTokenizer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Main {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StreamTokenizer in = new StreamTokenizer(bf);

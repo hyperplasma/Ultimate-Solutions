@@ -1,5 +1,10 @@
 package merge_two_sorted_lists
 
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	if list1 == nil {
 		return list2
@@ -34,9 +39,4 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		p = p.Next
 	}
 	return head.Next
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
 }

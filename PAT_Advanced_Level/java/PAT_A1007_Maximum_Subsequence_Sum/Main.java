@@ -16,7 +16,7 @@ public class Main {
             a[i] = Integer.parseInt(input[i - 1]);
         }
 
-        int l = 1, r = 1, width = r - l;
+        int l = 1, r = 1;
         int thisSum = -1, maxSum = -1;
 
         for (int i = 1, start = 1; i <= n; i++) {
