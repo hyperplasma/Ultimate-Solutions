@@ -7,9 +7,9 @@ using namespace std;
 
 const int N = 100010;
 
-int n, L, H;        // L:最低标准 H:划分线
+int n, L, H;        // L: 最低标准, H: 划分线
 struct Person {
-    int id, virtue, talent, total;        // virtur：德，talent：才
+    int id, virtue, talent, total;        // virtue: 德, talent: 才
 
     bool operator<(const Person &t) const {
         if (total != t.total) return total > t.total;

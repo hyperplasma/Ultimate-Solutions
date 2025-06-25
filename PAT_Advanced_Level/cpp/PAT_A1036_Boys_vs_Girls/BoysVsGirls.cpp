@@ -12,7 +12,6 @@ string first_girl, last_boy;
 string first_g_id, last_b_id;
 int first_g_score = -INF, last_b_score = INF;
 
-
 int main() {
     cin >> n;
 
