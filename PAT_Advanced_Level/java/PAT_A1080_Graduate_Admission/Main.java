@@ -5,25 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 
-class Applicant {
-    int id;
-    int ge;
-    int gi;
-    int finalGrade;
-    int[] choices;
-
-    public Applicant(int id, int ge, int gi, int[] choices) {
-        this.id = id;
-        this.ge = ge;
-        this.gi = gi;
-        finalGrade = ge + gi;
-        this.choices = choices;
-    }
-}
-
+/**
+ * 测试点4超时
+ */
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -41,7 +27,7 @@ public class Main {
 
         int[] lineInt;     // to save applicants data in integer
         int len = K + 2;    // number of integers in a line
-        ArrayList<Applicant> applicants = new ArrayList<>();    // to save all applicants
+        ArrayList<Student> students = new ArrayList<>();    // to save all applicants
 
         for (int i = 0; i < N; i++) {
             line = reader.readLine().split(" ");
@@ -51,12 +37,12 @@ public class Main {
                 lineInt[j] = Integer.parseInt(line[j]);
             }
             int[] choices = Arrays.copyOfRange(lineInt, 2, len);
-            Applicant applicant = new Applicant(i, lineInt[0], lineInt[1], choices);
-            applicants.add(applicant);
+            Student student = new Student(i, lineInt[0], lineInt[1], choices);
+            students.add(student);
         }
 
         // sort applicants according to their final grade and grade of ge
-        applicants.sort((o1, o2) -> {
+        students.sort((o1, o2) -> {
             if (o1.finalGrade != o2.finalGrade) {
                 return o2.finalGrade - o1.finalGrade;
             }
@@ -64,17 +50,17 @@ public class Main {
         });
 
         // to save final admission result
-        ArrayList<ArrayList<Applicant>> admissionResult = new ArrayList<>();
+        ArrayList<ArrayList<Student>> admissionResult = new ArrayList<>();
 
         // init of admission result
         for (int i = 0; i < M; i++) {
-            ArrayList<Applicant> certainSchoolResult = new ArrayList<>();
+            ArrayList<Student> certainSchoolResult = new ArrayList<>();
             admissionResult.add(certainSchoolResult);
         }
 
 
         for (int i = 0; i < N; i++) {
-            Applicant temp = applicants.get(i);
+            Student temp = students.get(i);
             for (int choice : temp.choices) {
                 if (schoolQuota[choice] > 0) {
                     schoolQuota[choice]--;
@@ -82,7 +68,7 @@ public class Main {
                     break;
                 }
                 if (schoolQuota[choice] == 0) {
-                    ArrayList<Applicant> schoolResult = admissionResult.get(choice);
+                    ArrayList<Student> schoolResult = admissionResult.get(choice);
                     int num = schoolResult.size();      // number of  applicants being admitted
                     if (num != 0) {
                         // if someone's final grade and grade of ge both equal last applicant's
@@ -113,5 +99,21 @@ public class Main {
                 System.out.println();
             }
         }
+    }
+}
+
+class Student {
+    int id;
+    int ge;
+    int gi;
+    int finalGrade;
+    int[] choices;
+
+    public Student(int id, int ge, int gi, int[] choices) {
+        this.id = id;
+        this.ge = ge;
+        this.gi = gi;
+        finalGrade = ge + gi;
+        this.choices = choices;
     }
 }

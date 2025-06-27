@@ -8,8 +8,8 @@ int main() {
     string s, res;
     cin >> s;
 
-    int is_minus = 0;
-    if (s[0] == '-') is_minus = 1;
+    bool is_minus = false;
+    if (s[0] == '-') is_minus = true;
     s = s.substr(1);
 
     int i;
@@ -25,10 +25,11 @@ int main() {
         while (k--) res = '0' + res;
         res = res.substr(0, 1) + '.' + res.substr(1);
     } else {
-        if (k < res.size() - 1)
+        if (k < res.size() - 1) {
             res = res.substr(0, 1 + k) + '.' + res.substr(1 + k);
-        else
+        } else {
             while (k >= res.size()) res += '0';
+        }
     }
 
     if (is_minus) res = '-' + res;

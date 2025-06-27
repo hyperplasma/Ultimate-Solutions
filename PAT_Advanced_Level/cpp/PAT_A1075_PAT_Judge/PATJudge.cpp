@@ -23,7 +23,7 @@ struct Student {
 };
 
 unordered_map<int, Student> mp;
-vector <Student> v;
+vector<Student> v;
 
 int main() {
     scanf("%d%d%d", &n, &Q, &m);
