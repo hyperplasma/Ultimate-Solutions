@@ -9,20 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Event implements Comparable<Event> {
-    int time, status;
-
-    public Event(int time, int status) {
-        this.time = time;
-        this.status = status;
-    }
-
-    @Override
-    public int compareTo(Event other) {
-        return Integer.compare(this.time, other.time);
-    }
-}
-
 /**
  * 测试点1、2、4、5超时
  */
@@ -116,5 +102,19 @@ public class Main {
 
         for (String it : res) System.out.print(it + " ");
         System.out.printf("%02d:%02d:%02d\n", maxTime / 3600, maxTime % 3600 / 60, maxTime % 60);
+    }
+}
+
+class Event implements Comparable<Event> {
+    int time, status;
+
+    public Event(int time, int status) {
+        this.time = time;
+        this.status = status;
+    }
+
+    @Override
+    public int compareTo(Event other) {
+        return Integer.compare(this.time, other.time);
     }
 }

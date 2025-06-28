@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * 测试点4
+ * 测试点4超时
  */
 public class Main {
     static final int N = 1010;

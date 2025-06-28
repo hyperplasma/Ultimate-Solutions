@@ -6,26 +6,6 @@ import java.util.*;
 /**
  * 测试点5超时
  */
-class Node implements Comparable<Node> {
-    int ad, data, next;
-    int flag;  // <0: 2，[0, k]: 1，>k: 0
-    int num;
-
-    Node(int ad, int data, int next, int flag, int num) {
-        this.ad = ad;
-        this.data = data;
-        this.next = next;
-        this.flag = flag;
-        this.num = num;
-    }
-
-    @Override
-    public int compareTo(Node t) {
-        if (this.flag != t.flag) return t.flag - this.flag;
-        else return this.num - t.num;
-    }
-}
-
 public class Main {
     static final int N = 100010;
     static Node[] nodes = new Node[N];
@@ -65,5 +45,25 @@ public class Main {
         System.out.printf("%05d %d -1\n", L.get(L.size() - 1).ad, L.get(L.size() - 1).data);
 
         br.close();
+    }
+}
+
+class Node implements Comparable<Node> {
+    int ad, data, next;
+    int flag;  // <0: 2，[0, k]: 1，>k: 0
+    int num;
+
+    Node(int ad, int data, int next, int flag, int num) {
+        this.ad = ad;
+        this.data = data;
+        this.next = next;
+        this.flag = flag;
+        this.num = num;
+    }
+
+    @Override
+    public int compareTo(Node t) {
+        if (this.flag != t.flag) return t.flag - this.flag;
+        else return this.num - t.num;
     }
 }

@@ -2,17 +2,6 @@ package PAT_A1115_Counting_Nodes_in_a_Binary_Search_Tree;
 
 import java.util.Scanner;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    int depth;
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-}
-
 public class Main {
     static TreeNode root;
     static int n1 = 0, n2 = 0, bottom = 0;
@@ -72,5 +61,16 @@ public class Main {
         dfs(root);
         System.out.printf("%d + %d = %d\n", n1, n2, n1 + n2);
         scanner.close();
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    int depth;
+
+    TreeNode(int val) {
+        this.val = val;
     }
 }
