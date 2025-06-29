@@ -21,8 +21,8 @@ The solutions encompass problems from the following platforms:
   - Classic problem sets
   - Database Problems
 - <a href="https://pintia.cn/problem-sets/dashboard">PAT</a>
-  - <a href="https://pintia.cn/problem-sets/994805260223102976/exam/problems/type/7">Basic Level (乙级)</a>
   - <a href="https://pintia.cn/problem-sets/994805342720868352/exam/problems/type/7">Advanced Level (甲级)</a>
+  - <a href="https://pintia.cn/problem-sets/994805260223102976/exam/problems/type/7">Basic Level (乙级)</a>
 - <a href="https://juejin.cn/problemset">Doubao MarsCode</a>
 
 For more information on each problem set, please refer to `info.md` in their respective directories.
