@@ -116,13 +116,4 @@ public class BigIntCalculation {
         }
         return C;
     }
-
-    // 将以列表存储的大数格式化为字符串
-    private static String printf(ArrayList<Integer> num) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = num.size() - 1; i >= 0; i--) {
-            sb.append(num.get(i));
-        }
-        return sb.toString();
-    }
 }
